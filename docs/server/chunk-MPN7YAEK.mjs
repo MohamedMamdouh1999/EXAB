@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{Ca as r,Da as i,Ha as s,Ka as a,Q as o}from"./chunk-HL3VDVR7.mjs";import"./chunk-KRLCULJA.mjs";var d=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-our-services"]],standalone:!0,features:[a],decls:2,vars:0,template:function(n,p){n&1&&(r(0,"p"),s(1,"our-services works!"),i())}});let t=e;return t})();export{d as OurServicesComponent};

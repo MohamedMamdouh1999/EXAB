@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/",
+    "/about-us",
+    "/contact-us",
+    "/our-clients",
+    "/our-products",
+    "/our-services"
+  ]
+}

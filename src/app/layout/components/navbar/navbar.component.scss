@@ -1,0 +1,28 @@
+nav {
+    fill: #FFF;
+    opacity: 0.908;
+    .navbar-collapse {
+        a {
+            font-weight: 700;
+            margin: 0px 20px;
+            color: #02597B;
+            svg {
+                display: none;
+            }
+            &.router-link-active {
+                margin-right: 0px;
+                span {
+                    margin-right: 7px;
+                }
+                svg {
+                    display: inline;
+                }
+            }
+        }
+        button {
+            span {
+                margin-left: 10px;
+            }
+        }
+    }
+}

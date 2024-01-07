@@ -1,0 +1,19 @@
+section {
+    h2 {
+        color: #02597B;
+    }
+    > div:last-of-type {
+        background-color: #F4F4F4;
+        .row span {
+            &:first-of-type {
+                color: #34CCFF;
+                margin-left: 10px;
+                padding-left: 5px;
+                border-color: #34CCFF !important;
+            }
+            &:last-of-type {
+                color: #48505D;
+            }
+        }
+    }
+}
