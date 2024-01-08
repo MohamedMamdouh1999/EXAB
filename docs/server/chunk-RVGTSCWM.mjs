@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import{U as m,d as i,i as r,ia as n}from"./chunk-RWMF5DUO.mjs";import"./chunk-KRLCULJA.mjs";var f=[{path:"",loadComponent:()=>import("./chunk-KRIVCCSI.mjs").then(o=>o.LayoutComponent)}],s=(()=>{let t=class t{};t.\u0275fac=function(e){return new(e||t)},t.\u0275mod=r({type:t}),t.\u0275inj=i({imports:[n.forChild(f),n]});let o=t;return o})();var u=(()=>{let t=class t{};t.\u0275fac=function(e){return new(e||t)},t.\u0275mod=r({type:t}),t.\u0275inj=i({imports:[m,s]});let o=t;return o})();export{u as LayoutModule};

@@ -1,0 +1,45 @@
+section {
+    background-color: white;
+    background-image: url('./../../../assets/IMGS/products-bgi.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    span::after {
+        content: ">";
+        position: absolute;
+        top: -38px;
+        right: -3px;
+        color: white;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    h2 {
+        color: #02597B;
+    }
+    h3 {
+        color: #20B3ED;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    h4 {
+        color: #02597B;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    @media screen and (max-width: 767px) {
+        & {
+            background-size: 80%;
+            h3 {
+                font-size: 33px;
+            }
+            h4 {
+                font-size: 25px;
+            }
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        & {
+            background-size: 55%;
+        }
+    }
+}
