@@ -1,21 +1,17 @@
 section {
     &:first-of-type {
-        color: white;
-        min-height: calc(100vh - 95px);
+        color: var(--second-color);
+        min-height: var(--outer-navbar);
         background-image: url('./../../../assets/IMGS/about-bgi.png');
         background-position: center;
         background-size: cover;
         p {
             text-align: justify;
         }
-        span {
-            margin-left: 10px;
-        }
         h4 {
             color: #CCC;
         }
         .overlay-about {
-            height: calc(100vh - 95px);
             background-image: url('./../../../assets/IMGS/about-img.png');
             background-position: center top;
             background-size: cover;
@@ -24,23 +20,26 @@ section {
             & {
                 min-height: auto;
                 text-align: center;
+                p {
+                    text-align: center;
+                }
             }
         }
     }
     &:last-of-type {
         h2 {
-            color: #02597B;
+            color: var(--main-color);
         }
         > div::before {
             content: "";
             position: absolute;
             height: 50%;
             width: 100%;
-            top: 50%;
-            left: 0px;
-            transform: translateY(-50%);
             z-index: -1;
-            background-color: #37BBED;
+            left: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: var(--third-color);
         }
     }
 }

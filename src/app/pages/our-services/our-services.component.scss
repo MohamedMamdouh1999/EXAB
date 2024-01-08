@@ -1,0 +1,40 @@
+section {
+    article {
+        h2,
+        p {
+            color: var(--main-color);
+            font-weight: 700;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 17px;
+        }
+        &:first-of-type {
+            .overlay-about {
+                background-image: url('./../../../assets/IMGS/Service-1.png');
+            }
+        }
+        &:nth-of-type(2) {
+            .overlay-about {
+                background-image: url('./../../../assets/IMGS/Service-2.png');
+            }
+        }
+        &:nth-of-type(3) {
+            .overlay-about {
+                background-image: url('./../../../assets/IMGS/Service-3.png');
+            }
+        }
+        &:nth-of-type(4) {
+            .overlay-about {
+                background-image: url('./../../../assets/IMGS/Service-4.png');
+            }
+        }
+        &:last-of-type {
+            .overlay-about {
+                background-image: url('./../../../assets/IMGS/Service-5.png');
+            }
+        }
+    }
+}

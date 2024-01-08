@@ -1,3 +1,9 @@
+:root {
+    --main-color: #02597B;
+    --second-color: white;
+    --third-color: #37BBED;
+    --outer-navbar: calc(100vh - 66px);
+}
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -5,4 +11,17 @@
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-text {
+    margin-left: 10px;
+}
+.hr {
+    height: 2px;
+    background-color: var(--third-color);
+}
+.overlay-about {
+    height: var(--outer-navbar);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
