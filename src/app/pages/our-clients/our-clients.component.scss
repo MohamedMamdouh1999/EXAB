@@ -1,5 +1,4 @@
 section {
-    height: calc(100vh - 95px);
     background-image: url('./../../../assets/IMGS/client-bgi.png');
     background-position: center;
     background-size: cover;
@@ -11,6 +10,12 @@ section {
         background-color: #ccdbe1;
         img {
             height: 120px;
+            max-width: 100%;
+        }
+        @media screen and (max-width: 767px) {
+            img {
+                height: 120px;
+            }
         }
     }
 }

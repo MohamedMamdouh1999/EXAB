@@ -20,6 +20,12 @@ section {
             background-position: center top;
             background-size: cover;
         }
+        @media screen and (max-width: 991px) {
+            & {
+                min-height: auto;
+                text-align: center;
+            }
+        }
     }
     &:last-of-type {
         h2 {
